@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Lucas090122/inclass7.git'
+                git branch: 'main', url: 'https://github.com/Lucas090122/SEP2_inClass_1.git'
             }
         }
         stage('Build') {
