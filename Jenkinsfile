@@ -8,7 +8,7 @@ pipeline {
             // Define Docker Hub repository name
             DOCKERHUB_REPO = 'atz7689/sep2_inclass_1'
             // Define Docker image tag
-            DOCKER_IMAGE_TAG = 'latest_v1'
+            DOCKER_IMAGE_TAG = 'latest_v2'
         }
     stages {
         stage('Checkout') {
